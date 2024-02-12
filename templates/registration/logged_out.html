@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html '%}
+
+{% block title %} Logged out {% endblock %}
+
+{% block content %}
+    <h1>Logged out </h1>
+    <p>
+        You get log out socsessfully !
+        You can <a href="{% urls 'login'%}"> Try again log system </a>
+    </p>
+{% endblock %}
